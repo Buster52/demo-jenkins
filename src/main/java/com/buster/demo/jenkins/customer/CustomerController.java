@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CustomerController {
     @GetMapping("/name")
     public String getName(){
-        return "Edgardo is the newest customer";
+        return "Edgardo is the oldest customer";
     }
 }
